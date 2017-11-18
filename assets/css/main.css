@@ -1,7 +1,8 @@
 .portada {
-  height: 120vh;
+  height: 110vh;
   background: linear-gradient(to right, rgba(0, 1, 1, 0.4), rgba(0, 0, 1, 0.04), rgba(0, 1, 1, 0.5)), url(../img/calzado-5.jpg);
-  background-position: center; }
+  background-position: center;
+  background-repeat: no-repeat; }
   .portada .titulo {
     margin-top: 20vh;
     margin-bottom: 40px; }
@@ -35,11 +36,11 @@
   width: 100%;
   height: 300px; }
 #productos #espcio-img {
-  height: 10vh; }
+  height: 15vh; }
 #productos #caja {
   height: 400px;
   width: 100%;
-  margin-bottom: 20px; }
+  margin-bottom: 30px; }
 
 footer {
   background: #222222;
@@ -63,7 +64,28 @@ nav #facebook {
 nav #redes-sociales {
   margin-right: 150px; }
 
-#home {
-  height: 95vh; }
+@media (min-width: 511px) and (max-width: 844px) {
+  .portada {
+    height: 70vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat; }
+
+  .espacio-nav {
+    height: 5vh; } }
+@media (min-width: 300px) and (max-width: 510px) {
+  .portada {
+    height: 70vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat; }
+    .portada .titulo p {
+      position: relative;
+      margin-top: 0px;
+      font-size: 15vw;
+      color: #FEC402; }
+    .portada .titulo #izquierda {
+      margin-right: -5px; }
+    .portada .titulo img {
+      width: 70%;
+      margin-left: 100px; } }
 
 /*# sourceMappingURL=main.css.map */

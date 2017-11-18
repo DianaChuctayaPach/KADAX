@@ -23,6 +23,45 @@ nav{
         margin-right: 150px;
     }
 }
-#home{
-    height: 95vh;
+
+
+@media (min-width:511px) and (max-width: 844px){
+  .portada{
+      height: 70vh;
+        background-attachment: fixed;
+      background-repeat: no-repeat;
+  }
+   .espacio-nav{
+    height: 5vh;
+    }
+}
+@media (min-width:300px) and (max-width: 510px){
+   
+  
+    .portada{
+      height: 70vh;
+    //   background-size: 50%;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+       .titulo{
+       
+        p{
+            position: relative;
+            margin-top: 0px;
+            font-size: 15vw;
+            color:#FEC402;
+         
+        }
+        #izquierda{
+            margin-right: -5px;
+        }
+       img{
+            width: 70%;
+            margin-left: 100px;
+       }
+       
+    }
+  }
+  
+  
 }
