@@ -1,0 +1,34 @@
+.portada{
+    height: 120vh;
+    background: linear-gradient(to right, rgba(0, 1, 1, 0.4), rgba(0, 0, 1, 0.04) ,rgba(0, 1, 1, 0.5)), url(../img/calzado-5.jpg);
+    background-position: center ;
+    // background-size:100%;
+    .titulo{
+        margin-top: 20vh;
+        margin-bottom: 40px;
+        hr{
+            // height: 1px;
+            background: #FF9900;
+            width: 60%;
+            border: 0.5px solid #FF9900;
+            // position: absolute;
+        }
+        p{
+            position: relative;
+            margin-top: 0px;
+            font-size: 10vw;
+            color:#FEC402;
+            font-weight: bold;
+            margin-left:-30px;
+        }
+        #izquierda{
+            margin-right: -5px;
+        }
+       img{
+            width: 70%;
+            margin-left: 100px;
+       }
+       
+    }
+
+}

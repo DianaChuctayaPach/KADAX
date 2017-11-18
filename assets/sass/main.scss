@@ -1,0 +1,28 @@
+@import 'parciales/_portada.scss';
+@import 'parciales/_productos.scss';
+@import 'parciales/_footer.scss';
+
+body{
+    margin: 20px;
+}
+.espacio-nav{
+    height: 10vh;
+}
+nav{
+    #myNavbar{
+        float: right;
+    }
+    #whatsapp{
+        color: green;
+        margin-left: 50px;
+    }
+    #facebook{
+        color: #4267B2;
+    }
+    #redes-sociales{
+        margin-right: 150px;
+    }
+}
+#home{
+    height: 95vh;
+}

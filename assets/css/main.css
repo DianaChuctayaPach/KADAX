@@ -1,0 +1,69 @@
+.portada {
+  height: 120vh;
+  background: linear-gradient(to right, rgba(0, 1, 1, 0.4), rgba(0, 0, 1, 0.04), rgba(0, 1, 1, 0.5)), url(../img/calzado-5.jpg);
+  background-position: center; }
+  .portada .titulo {
+    margin-top: 20vh;
+    margin-bottom: 40px; }
+    .portada .titulo hr {
+      background: #FF9900;
+      width: 60%;
+      border: 0.5px solid #FF9900; }
+    .portada .titulo p {
+      position: relative;
+      margin-top: 0px;
+      font-size: 10vw;
+      color: #FEC402;
+      font-weight: bold;
+      margin-left: -30px; }
+    .portada .titulo #izquierda {
+      margin-right: -5px; }
+    .portada .titulo img {
+      width: 70%;
+      margin-left: 100px; }
+
+#productos .titulo {
+  margin-top: 5vh; }
+  #productos .titulo p {
+    font-size: 5vw; }
+  #productos .titulo hr {
+    background: #FEC402;
+    width: 90%;
+    border: 0.5px solid #FEC402;
+    height: 1px; }
+#productos img {
+  width: 100%;
+  height: 300px; }
+#productos #espcio-img {
+  height: 10vh; }
+#productos #caja {
+  height: 400px;
+  width: 100%;
+  margin-bottom: 20px; }
+
+footer {
+  background: #222222;
+  padding: 40px;
+  color: white;
+  font-size: 17px; }
+
+body {
+  margin: 20px; }
+
+.espacio-nav {
+  height: 10vh; }
+
+nav #myNavbar {
+  float: right; }
+nav #whatsapp {
+  color: green;
+  margin-left: 50px; }
+nav #facebook {
+  color: #4267B2; }
+nav #redes-sociales {
+  margin-right: 150px; }
+
+#home {
+  height: 95vh; }
+
+/*# sourceMappingURL=main.css.map */
